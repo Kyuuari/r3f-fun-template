@@ -7,6 +7,7 @@ Dependencies Includes
 * tailwind
 * three
 * [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+* [@react-three/postprocessing](https://github.com/pmndrs/react-postprocessing)
 * [@react-three/drei](https://github.com/pmndrs/drei)
 * [leva](https://github.com/pmndrs/leva)
 
