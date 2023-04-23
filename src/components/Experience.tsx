@@ -1,7 +1,7 @@
 import { Grid, OrbitControls } from "@react-three/drei";
 import { useControls } from "leva";
 import { Perf } from "r3f-perf";
-import React from "react";
+import { Suspense } from "react";
 
 type Props = {};
 
@@ -12,10 +12,13 @@ const Experience = (props: Props) => {
       <Perf position={"top-left"} />
       <OrbitControls />
       <Grid cellColor="white" args={[10, 10]} />
-      <mesh scale={scale}>
-        <boxGeometry args={[1, 1, 1]} />
-        <meshBasicMaterial />
-      </mesh>
+
+      <Suspense fallback={null}>
+        <mesh scale={scale}>
+          <boxGeometry args={[1, 1, 1]} />
+          <meshBasicMaterial />
+        </mesh>
+      </Suspense>
     </>
   );
 };
