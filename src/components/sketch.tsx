@@ -3,9 +3,9 @@ import { useControls } from "leva";
 import { Perf } from "r3f-perf";
 import { Suspense } from "react";
 
-type Props = {};
+interface Props {}
 
-const Experience = (props: Props) => {
+export const Sketch = (props: Props) => {
   const { scale } = useControls({ scale: -2 });
   return (
     <>
@@ -22,5 +22,3 @@ const Experience = (props: Props) => {
     </>
   );
 };
-
-export default Experience;

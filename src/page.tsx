@@ -1,18 +1,18 @@
-import Experience from "./components/experience";
+import { Sketch } from "./components/sketch";
 import { Canvas } from "@react-three/fiber";
-import Overlay from "./components/overlay";
 import { Loader } from "@react-three/drei";
 import { useControls } from "leva";
+import { SocialsOverlay } from "./components/layout/socials-overlay";
 
 function App() {
   const controls = useControls({ backgroundColor: "#F7F4EA" });
 
   return (
     <>
-      <Overlay />
+      <SocialsOverlay />
       <Canvas camera={{ position: [3, 3, 3] }}>
         <color attach="background" args={[controls.backgroundColor]} />
-        <Experience />
+        <Sketch />
       </Canvas>
       <Loader />
     </>
