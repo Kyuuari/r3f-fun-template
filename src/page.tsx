@@ -1,4 +1,3 @@
-import "./App.css";
 import Experience from "./components/experience";
 import { Canvas } from "@react-three/fiber";
 import Overlay from "./components/overlay";
