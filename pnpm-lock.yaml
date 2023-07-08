@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.152.1
     version: 0.152.1
   gsap:
-    specifier: ^3.12.1
-    version: 3.12.1
+    specifier: ^3.12.2
+    version: 3.12.2
   leva:
     specifier: ^0.9.35
     version: 0.9.35(@types/react-dom@18.2.6)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
@@ -1632,8 +1632,8 @@ packages:
     resolution: {integrity: sha512-b/ZCF6amfAUb7dJM/MxRs7AetQEahYzJ8PtgfrmEdtw6uyGOr+ZSGtgjFm6mfsBkxJ4d2W7kg+Nlqzqvn3Bc0w==}
     dev: false
 
-  /gsap@3.12.1:
-    resolution: {integrity: sha512-FXtb2YbBE9l8I9Pl5DFLpCMedaiMPztRlr0Ln0CMSnJn+pbTaeKlzgth8cLNPc7PzNwIZe+SEQiBBAWaBKJdVA==}
+  /gsap@3.12.2:
+    resolution: {integrity: sha512-EkYnpG8qHgYBFAwsgsGEqvT1WUidX0tt/ijepx7z8EUJHElykg91RvW1XbkT59T0gZzzszOpjQv7SE41XuIXyQ==}
     dev: false
 
   /has-flag@3.0.0:
