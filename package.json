@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-three/drei": "^9.84.2",
-    "@react-three/fiber": "^8.14.2",
+    "@react-three/fiber": "^8.14.3",
     "@react-three/postprocessing": "^2.15.1",
     "@types/three": "^0.152.1",
     "gsap": "^3.12.2",
