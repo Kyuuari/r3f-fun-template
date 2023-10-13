@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@react-three/drei':
-    specifier: ^9.86.3
-    version: 9.86.3(@react-three/fiber@8.14.4)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
+    specifier: ^9.88.2
+    version: 9.88.2(@react-three/fiber@8.14.4)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
   '@react-three/fiber':
     specifier: ^8.14.4
     version: 8.14.4(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
@@ -1044,8 +1044,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.86.3(@react-three/fiber@8.14.4)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0):
-    resolution: {integrity: sha512-4zig+Hf1zFml52jxiS+QPwPs6OWzVkWKyWbj1HhnxucxFky4WbjzYJYrttRcHc34ehiIN8j8K/VaFfQVgr5YTg==}
+  /@react-three/drei@9.88.2(@react-three/fiber@8.14.4)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0):
+    resolution: {integrity: sha512-zC5nXw6S62DYJ7o2vCmbdv/blaFxkjzhNKy5p7VVokIJmcH+5quAmPuimJNNlxoosS0Jpn7SdoX+FKav/lINXw==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
@@ -1078,7 +1078,7 @@ packages:
       suspend-react: 0.1.3(react@18.2.0)
       three: 0.153.0
       three-mesh-bvh: 0.6.7(three@0.153.0)
-      three-stdlib: 2.26.6(three@0.153.0)
+      three-stdlib: 2.27.2(three@0.153.0)
       troika-three-text: 0.47.2(three@0.153.0)
       utility-types: 3.10.0
       uuid: 9.0.1
@@ -2172,7 +2172,7 @@ packages:
         optional: true
     dependencies:
       '@radix-ui/react-icons': 1.3.0(react@18.2.0)
-      '@react-three/drei': 9.86.3(@react-three/fiber@8.14.4)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
+      '@react-three/drei': 9.88.2(@react-three/fiber@8.14.4)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
       '@react-three/fiber': 8.14.4(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
       '@stitches/react': 1.2.8(react@18.2.0)
       '@utsubo/events': 0.1.7(react@18.2.0)
@@ -2498,8 +2498,8 @@ packages:
       zstddec: 0.0.2
     dev: false
 
-  /three-stdlib@2.26.6(three@0.153.0):
-    resolution: {integrity: sha512-93XercNU5UBVXOXrzekL3eltt4fR0yvXN8r4rPSMNPAjwFdHYgc8o7SqylCNLPNetB9eAHGtI3Tx7WUMRM6lMg==}
+  /three-stdlib@2.27.2(three@0.153.0):
+    resolution: {integrity: sha512-yjHaY4QHRqMi1yGIt5RzWtRFbcCj2YHoCaAY4pldphI5CMf9PoCc9N2UFuVbHqgITQRKnVoCo+OCMU2rIZTXjg==}
     peerDependencies:
       three: '>=0.128.0'
     dependencies:
@@ -2508,12 +2508,8 @@ packages:
       '@types/webxr': 0.5.2
       draco3d: 1.5.6
       fflate: 0.6.10
-      ktx-parse: 0.4.5
-      mmd-parser: 1.0.4
-      opentype.js: 1.3.4
       potpack: 1.0.2
       three: 0.153.0
-      zstddec: 0.0.2
     dev: false
 
   /three@0.153.0:
