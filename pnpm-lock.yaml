@@ -12,8 +12,8 @@ dependencies:
     specifier: ^8.14.6
     version: 8.14.6(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
   '@react-three/postprocessing':
-    specifier: ^2.15.5
-    version: 2.15.5(@react-three/fiber@8.14.6)(@types/three@0.152.1)(react@18.2.0)(three@0.153.0)
+    specifier: ^2.15.6
+    version: 2.15.6(@react-three/fiber@8.14.6)(@types/three@0.152.1)(react@18.2.0)(three@0.153.0)
   '@types/three':
     specifier: ^0.152.1
     version: 0.152.1
@@ -1125,14 +1125,15 @@ packages:
       zustand: 3.7.2(react@18.2.0)
     dev: false
 
-  /@react-three/postprocessing@2.15.5(@react-three/fiber@8.14.6)(@types/three@0.152.1)(react@18.2.0)(three@0.153.0):
-    resolution: {integrity: sha512-bKaobdlXNTy6OLTVjtdz3+bxEmdlAm1d6CmWT6XyP4QDL905oRuGLIiC8giHhX7NdRa1JS2hWsaste0SQhi8zg==}
+  /@react-three/postprocessing@2.15.6(@react-three/fiber@8.14.6)(@types/three@0.152.1)(react@18.2.0)(three@0.153.0):
+    resolution: {integrity: sha512-3WtE4HCpWCwW7jk6w021rbMY2bZEA0D3xrnp/puWZ0EF9DObxEs+aQkVsjMno5uMAOkm6FPjjb+WLva6AtjEtg==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
       three: '>= 0.138.0'
     dependencies:
       '@react-three/fiber': 8.14.6(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
+      buffer: 6.0.3
       maath: 0.6.0(@types/three@0.152.1)(three@0.153.0)
       n8ao: 1.6.7(postprocessing@6.32.1)(three@0.153.0)
       postprocessing: 6.32.1(three@0.153.0)
@@ -1391,6 +1392,13 @@ packages:
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
     dev: true
+
+  /buffer@6.0.3:
+    resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
+    dependencies:
+      base64-js: 1.5.1
+      ieee754: 1.2.1
+    dev: false
 
   /camelcase-css@2.0.1:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
@@ -1711,6 +1719,10 @@ packages:
     dependencies:
       function-bind: 1.1.1
     dev: true
+
+  /ieee754@1.2.1:
+    resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
+    dev: false
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
