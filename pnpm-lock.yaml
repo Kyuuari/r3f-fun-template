@@ -12,8 +12,8 @@ dependencies:
     specifier: ^8.15.10
     version: 8.15.10(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
   '@react-three/postprocessing':
-    specifier: ^2.15.10
-    version: 2.15.10(@react-three/fiber@8.15.10)(@types/three@0.152.1)(react@18.2.0)(three@0.153.0)
+    specifier: ^2.15.11
+    version: 2.15.11(@react-three/fiber@8.15.10)(@types/three@0.152.1)(react@18.2.0)(three@0.153.0)
   '@types/three':
     specifier: ^0.152.1
     version: 0.152.1
@@ -1083,8 +1083,8 @@ packages:
       zustand: 3.7.2(react@18.2.0)
     dev: false
 
-  /@react-three/postprocessing@2.15.10(@react-three/fiber@8.15.10)(@types/three@0.152.1)(react@18.2.0)(three@0.153.0):
-    resolution: {integrity: sha512-MMKYI5Stz9q8pkuRvqodt46mJ0X0jWVVzysqMjpLN1RR3l58Ijgl+PXu6lWTCBUT6KAimIyXoOcw3ngMk5YpWw==}
+  /@react-three/postprocessing@2.15.11(@react-three/fiber@8.15.10)(@types/three@0.152.1)(react@18.2.0)(three@0.153.0):
+    resolution: {integrity: sha512-XQJxhk/hsbzUCLagd8V4pg28iy+UMkYeFFL7BOdlSM1TgAorNzMim+Wu5zI6fbAaGMpmwk7PCbOZN5YPgD0BRQ==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
